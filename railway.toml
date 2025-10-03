@@ -4,5 +4,5 @@ dockerfilePath = "Dockerfile"
 
 [deploy]
 startCommand = "/docker-run.sh"
-restartPolicyType = "on-failure"
+restartPolicyType: "ON_FAILURE"
 restartPolicyMaxRetries = 10

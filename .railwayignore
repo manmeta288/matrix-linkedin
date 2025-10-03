@@ -1,0 +1,6 @@
+.git
+.github
+*.md
+.gitignore
+.dockerignore
+example-config.yaml

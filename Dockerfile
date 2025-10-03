@@ -15,6 +15,5 @@ RUN apk add --no-cache ffmpeg su-exec ca-certificates olm bash jq yq curl
 
 COPY --from=builder /build/mautrix-linkedin /usr/bin/mautrix-linkedin
 COPY --from=builder /build/docker-run.sh /docker-run.sh
-VOLUME /data
 
 CMD ["/docker-run.sh"]
